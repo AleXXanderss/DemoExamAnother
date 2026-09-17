@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from pathlib import Path
 import psycopg
 
-DB = 'postgresql://postgres:Admin@localhost:5432/demoekz'
+DB = 'postgresql://postgres:123@localhost:5432/demoekz'
 PIC = Path(__file__).parent / 'pictures'
 LOCKED = 'Вы заблокированы. Обратитесь к администратору'
 WRONG = 'Вы ввели неверный логин или пароль.\nПожалуйста проверьте ещё раз введенные данные'
